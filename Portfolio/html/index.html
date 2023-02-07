@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portpolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h2 class="heada">DEE<span class="haa">PAK</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  <i class="fa-regular fa-circle-xmark "  id="deo" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars "id="opera" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I am <span>Deepak <br>Sharma</span> From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/profile (1).png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="aboutme">Hello Everyone,I am Deepak Sharma from Aligarh,Uttar Pradesh.<br/> <span class="aboutinner">I am a Front-End Web Developer.</span> Specializing in refined digital web experiences with a focus on animated, responsive, and interactive content. 
+                    I am success oriented and growth potential person. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Devlopment</span><br>
+                                
+                                Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.
+                            </li>
+                            <li>
+                                <span>Front-End Web Devlopment</span><br> A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.<br>
+                              <span class="aboutinner">HTML5<br>CSS<br>JAVASCRIPT<br>REACT JS</span>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2022-2023</span><br>Intership at FORELSKET SOFTWARES PVT LTD.                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2020-2023</span><br>BCA from Dr.Bhim  Rao Ambedkar University,Agra.
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Web developers create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, web developers may create content for the site.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front End Developer</h2>
+                    <p>Most front end developers spend a great deal of their time working in HTML, CSS and JavaScript, making proficiency in each key to their success.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Back End Developer</h2>
+                    <p>Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/work-1.png" alt="osm">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam obcaecati omnis
+                            vero est nisi doloribus quae, facere harum. Corporis architecto quia repudiandae? Accusamus
+                            labore eum nostrum. Quidem, placeat quibusdam alias iste doloremque sint!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work-2.png" alt="osm">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam obcaecati omnis
+                            vero est nisi doloribus quae, facere harum. Corporis architecto quia repudiandae? Accusamus
+                            labore eum nostrum. Quidem, placeat quibusdam alias iste doloremque sint!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work-3.png" alt="osm">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam obcaecati omnis
+                            vero est nisi doloribus quae, facere harum. Corporis architecto quia repudiandae? Accusamus
+                            labore eum nostrum. Quidem, placeat quibusdam alias iste doloremque sint!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#">See More</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>deepaksharma1942003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8279639482</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="s"><i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                    <div class="down">
+                        <a href="#"> DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input type="email" name="email" id="email" placeholder="Enter the Your Email">
+                        <textarea name="" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn2">SUMBIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright &copy; Deepak Sharma@2023</p>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw-hCO3eXdyUFO6vnglczXoJu_xjTP7KkP2q86ajubJr-eLbVebRb-XAPuNi5dU-HUSCg/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
